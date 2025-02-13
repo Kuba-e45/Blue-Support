@@ -28,6 +28,7 @@
       cursor: pointer;
       margin: 10px;
       text-decoration: none;
+      display: inline-block;
       transition: background-color 0.3s ease;
     }
     .button:hover {
@@ -40,13 +41,14 @@
     <h1>Einlade-Links für deine Discord Bots</h1>
 
     <!-- Button für den Globalchat Bot -->
-    <a href="https://discord.com/oauth2/authorize?client_id=1315790976492507187" class="button" target="_blank">Invite Globalchat Bot</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=DEIN_GLOBALCHAT_BOT_CLIENT_ID&scope=bot&permissions=BOT_PERMISSIONS" class="button" target="_blank">Invite Globalchat Bot</a>
 
     <!-- Button für den Moderation Bot -->
-    <a href="https://discord.com/oauth2/authorize?client_id=1321889022380871681" class="button" target="_blank">Invite Moderation Bot</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=DEIN_MODERATION_BOT_CLIENT_ID&scope=bot&permissions=BOT_PERMISSIONS" class="button" target="_blank">Invite Moderation Bot</a>
 
     <!-- Button für den Blue Support Server -->
-    <a href="https://discord.gg/2PC8aMMmfv" class="button" target="_blank">Join Blue Support</a>
+    <a href="https://discord.gg/DEIN_SUPPORT_SERVER_LINK" class="button" target="_blank">Join Blue Support</a>
   </div>
 </body>
 </html>
+
