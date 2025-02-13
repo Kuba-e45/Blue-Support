@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Bots - Invite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 32px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Einlade-Links für deine Discord Bots</h1>
+
+    <!-- Button für den Globalchat Bot -->
+    <a href="https://discord.com/oauth2/authorize?client_id=1315790976492507187" class="button" target="_blank">Invite Globalchat Bot</a>
+
+    <!-- Button für den Moderation Bot -->
+    <a href="https://discord.com/oauth2/authorize?client_id=1321889022380871681" class="button" target="_blank">Invite Moderation Bot</a>
+
+    <!-- Button für den Blue Support Server -->
+    <a href="https://discord.gg/2PC8aMMmfv" class="button" target="_blank">Join Blue Support</a>
+  </div>
+</body>
+</html>
